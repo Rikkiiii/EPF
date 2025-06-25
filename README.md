@@ -33,8 +33,13 @@ This project investigates the impact of renewable energy on electricity prices i
 - **Random Forest Feature Importance**
 - **Granger Causality Test** (without lags)
 - **STL-based decomposition** (seasonal/trend components)
+![Feature Importance](Importance_Score.png)
+*Figure: Random Forest feature importance ranking.*
 
 ## 📊 Results Summary
+
+![Model RMSE Comparison](RMSE_Comparison.png)
+*Figure: Comparison of model RMSE on 1-year test set.*
 
 | Model | Best RMSE (NI) | Best RMSE (SI) |
 |-------|----------------|----------------|
@@ -52,6 +57,12 @@ This project investigates the impact of renewable energy on electricity prices i
 - 📂 models/ # Trained models (optional)
 - 📄 Client_Report.pdf # Final project report
 - 📄 README.md # Project documentation
+
+
+## 📈 Electricity Price and Hydro Trend
+
+![Price and Hydro Trend](Yearly_Trending.png)
+*Figure: Daily electricity prices and hydropower generation trend (2014–2023).*
 
 ## 🔍 Key Insights
 
